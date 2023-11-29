@@ -1,56 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1844512095771305924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9cede398fae4c65390e7dca49ec6df0, type: 3}
-  m_Name: OilPaintingEffectURP
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    WhenToApply: 550
-    inputTexture: {fileID: 0}
-    renderToTexture: 0
-    outputTexture: {fileID: 0}
-    outputMipmap: 0
-    EffectFade: 0
-    PanFade: 0
-    SrcBlur: 0
-    SrcBright: 1
-    SrcColor: 1.5
-    SrcContrast: 1.5
-    BrushDetail: 0.1
-    BrushFill: 0.5
-    NumStrokes: 32768
-    Canvas: 0.4
-    ColorSpread: 0.5
-    FlickerFreq: 15
-    FlickerStrength: 0
-    LayerScale: 0.8
-    LightAng: 135
-    LightOffs: 60
-    PaintDiff: 0.15
-    PaintShiny: 0.5
-    PaintSpec: 0.15
-    StrokeAng: 0
-    StrokeBend: -1
-    StrokeContour: 1
-    StrokeDir: 0
-    ScreenFOV: 0
-    MultiStroke: 6
-    strokeSeed: 10
-    Vignette: 1
-    CanvasBg: 0.5
-    CanvasTint: {r: 1, g: 1, b: 1, a: 1}
-    flipY: 0
-    geomFlipY: 0
-    HDRPGamma: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,9 +15,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
-  m_RendererFeatures:
-  - {fileID: -1844512095771305924}
-  m_RendererFeatureMap: 3cd8a38305fa66e6
+  m_RendererFeatures: []
+  m_RendererFeatureMap: 
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
